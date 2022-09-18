@@ -7,6 +7,12 @@ body{
     font-family:"Roboto", sans-serif;
     color: var(--top-color);
 }
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
 .list {
     list-style: none;
 }
@@ -21,6 +27,9 @@ letter-spacing: 0.03em;
 color: #2196F3;
 }
 /*------------ Header---------------- */
+.logo-color {
+    color:  #000000;
+}
 .header-link {
 font-weight: 500;
 font-size: 14px;
@@ -76,9 +85,6 @@ font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: var(--hit-color);
 cursor: pointer;
@@ -130,6 +136,14 @@ color: var(--top-color);
 .about-iten {
 }
 .about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--top-color);
+}
+.about-iten-title {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -162,6 +176,7 @@ color: var(--top-color);
 .address {
 }
 .address-link {
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -172,12 +187,14 @@ color: var(--hit-color);
 .footer-iten {
 }
 .footer-mail {
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -198,6 +215,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-iten {
 }
 .portfolio-button {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
